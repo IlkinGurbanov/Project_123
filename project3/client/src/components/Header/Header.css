@@ -1,0 +1,63 @@
+.headersection{
+    background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp");
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(121, 113, 234,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+.header{
+    color: white;
+}
+.headtitletext{
+    font-size: 40px;
+    font-weight: bold;
+}
+.headmaintext{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.headendtext{
+    padding-top: 20px;
+}
+.headbtn{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #7971EA;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+
+.divsrchinput{
+    border: 1px solid;
+    border-radius: 10px;
+}   
+.srchinput{
+    width: 300px;
+    height: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    color: black;
+}
+.Srch{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100px;
+    height: 62px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    background-color: yellow;
+}

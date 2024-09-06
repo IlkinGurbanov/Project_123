@@ -1,0 +1,42 @@
+
+
+.caruseltext{
+    width: 400px;
+}
+.caruselhead{
+    background-color: #1FA67A;
+    padding: 10px;
+    margin: 0;
+}
+.caruselmain{
+    margin: 0;
+    width: 600px;
+    padding: 10px;
+    background-color: #344353;
+}
+
+
+.textaftercarusel{
+    background-color: #1FA67A;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+}
+.caruseltextfirst{
+    background-color: #1FA67A;
+    color: white;
+    font-size: 22px;
+}
+.caruselbutton{
+    background-color: #1FA67A;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+}
+.caruselbutton:hover{
+    background-color: white;
+    color: #1FA67A;
+}

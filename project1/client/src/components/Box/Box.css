@@ -1,0 +1,173 @@
+.boxcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.boxside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxtitle{
+    font-size: 32px;
+}
+
+.static{
+    display: flex;
+    align-items: center;
+}
+.boxDate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.boxdate{
+    font-size: 13px;
+    margin: 0;
+}
+
+.boxComment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.boxcomment{
+    font-size: 13px;
+    margin: 0;
+}
+.boxFolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boxfolder{
+    font-size: 13px;
+    margin: 0;
+}
+
+.imgside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.boxtext{
+    font-size: 14px;
+    width: 400px;
+}
+
+.image{
+    width:400px ;
+    height: 250px;
+}
+
+.con{
+    cursor: pointer;
+    padding-left: 250px;
+    color:  #1FA67A;
+}
+
+/* .con:hover{
+    color: white;
+    background-color: #1FA67A;
+    padding: 8px;
+    width:200px;
+    height: 60px;
+} */
+
+
+.boxend{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    background-color: #333333;
+    color: white;
+    border-radius: 3px;
+}
+
+
+.Search{
+    display: flex;
+}
+.searchinput{
+    width: 350px;
+    height: 40px;
+}
+.divsearch{
+    background-color: #1FA67A;
+    color: white;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.searchbtn{
+    font-size: 30px;
+}
+
+.popular{
+    padding-top: 40px;
+}
+.populartext{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.popularitem{
+    font-size: 14px;
+}
+
+
+.popularbox{
+    border: 1px solid gray;
+    width: 300px;
+    margin: 0;
+}
+.boxitem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 10px 0px 10px;
+    margin: 0;
+}
+.popularimage{
+    width: 30px;
+    height: 30px;
+}
+.boxitemtext{
+    width: 100px;
+    font-size: 14px;
+}
+
+
+.Recentcomments{
+    padding-top: 100px;
+
+}
+.recent{
+    font-size: 24px;
+}
+.commentsitem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
